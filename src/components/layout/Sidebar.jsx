@@ -68,7 +68,7 @@ export default function Sidebar({ open, onClose }) {
         {/* Link back to main app */}
         <div className="mt-4 pt-4 border-t border-white/10">
           <a
-            href={import.meta.env.VITE_MAIN_APP_URL || 'https://nexcribe.com'}
+            href={import.meta.env.VITE_MAIN_APP_URL || 'https://nexcribe.com/dashboard'}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all"
